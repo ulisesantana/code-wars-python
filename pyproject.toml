@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "python-boilerplate"
+version = "0.1.0"
+description = ""
+authors = ["Ulises Santana <ulisesantana@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python_boilerplate"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^7.4.0"
+pytest-cov = "^4.1.0"
+pytest-instafail = "^0.5.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+flake8 = "^6.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
