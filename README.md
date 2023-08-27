@@ -1,1 +1,1 @@
-# python boilerplate
+# code-wars exercises

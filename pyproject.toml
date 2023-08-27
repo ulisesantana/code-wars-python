@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Ulises Santana <ulisesantana@gmail.com>"]
 readme = "README.md"
-packages = [{include = "python_boilerplate"}]
+packages = [{include = "code_wars"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
