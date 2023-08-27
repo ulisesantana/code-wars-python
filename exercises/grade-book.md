@@ -1,0 +1,31 @@
+<h2>Grade book</h2>
+<p>Complete the function so that it finds the average of the three scores passed to it and returns the letter value associated with that grade.</p>
+<table>
+<thead>
+<tr>
+<th>Numerical Score</th>
+<th>Letter Grade</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>90 &lt;= score &lt;= 100</td>
+<td>'A'</td>
+</tr>
+<tr>
+<td>80 &lt;= score &lt; 90</td>
+<td>'B'</td>
+</tr>
+<tr>
+<td>70 &lt;= score &lt; 80</td>
+<td>'C'</td>
+</tr>
+<tr>
+<td>60 &lt;= score &lt; 70</td>
+<td>'D'</td>
+</tr>
+<tr>
+<td>0 &lt;= score &lt; 60</td>
+<td>'F'</td>
+</tr>
+</tbody></table>
+<p>Tested values are all between 0 and 100. Theres is no need to check for negative values or values greater than 100.</p>
