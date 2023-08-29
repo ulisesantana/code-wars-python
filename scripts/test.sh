@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-poetry run pytest --cov=code_wars -v
+poetry run pytest --cov=tests -v
